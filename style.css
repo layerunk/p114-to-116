@@ -1,0 +1,16 @@
+canvas{
+    animation-name: christmaspolka;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-width: 3px;
+    border-style: dashed;
+    margin-left: 350px;
+}
+@keyframes christmaspolka{
+    from{
+        box-shadow: 3px 5px 40px red;
+    }
+    to{
+        box-shadow: 5px 5px 40px violet;
+    }
+}
